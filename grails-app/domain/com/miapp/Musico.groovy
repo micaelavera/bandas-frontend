@@ -13,6 +13,7 @@ class Musico {
 		apellido nullable: false
 		email email: true, unique:true
 		password minSize: 6, password:true
+		foto blank:false
 	}
 	static hasMany = [ bandas : Banda ]
 }
