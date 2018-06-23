@@ -8,6 +8,5 @@ class Rol {
 		nombre blank: false
 	}
 	
-	static hasOne = [ musico : Musico ] 
-	static hasOne = [instrumento : Instrumento ]
+	static hasMany= [ instrumentos: Instrumento ]
 }

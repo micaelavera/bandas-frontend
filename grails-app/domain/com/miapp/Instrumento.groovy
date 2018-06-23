@@ -7,5 +7,6 @@ class Instrumento {
     static constraints = {
 		nombre nullable: false 
 	}
-	static hasMany = [ rol : Rol ]
+	
+	static hasOne= [ rol : Rol ]
 }
