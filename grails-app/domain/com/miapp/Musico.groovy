@@ -14,4 +14,5 @@ class Musico {
 		email email: true, unique:true
 		password minSize: 6, password:true
 	}
+	static hasMany = [ bandas : Banda ]
 }

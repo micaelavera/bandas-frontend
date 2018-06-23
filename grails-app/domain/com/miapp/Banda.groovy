@@ -8,4 +8,6 @@ class Banda {
     static constraints = {
 		nombre nullable: false
 	}
+
+	static belongsTo = [ musico : Musico ]
 }
