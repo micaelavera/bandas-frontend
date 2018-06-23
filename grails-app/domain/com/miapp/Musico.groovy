@@ -11,7 +11,7 @@ class Musico {
     static constraints = {
 		nombre nullable: false
 		apellido nullable: false
-		email email: true
+		email email: true, unique:true
 		password minSize: 6, password:true
 	}
 }
