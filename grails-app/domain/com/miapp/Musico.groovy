@@ -16,4 +16,5 @@ class Musico {
 		foto blank:false
 	}
 	static hasMany = [ bandas : Banda ]
+	static hasMany = [ roles : Rol ]
 }
