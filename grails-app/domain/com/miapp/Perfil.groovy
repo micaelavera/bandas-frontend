@@ -2,10 +2,12 @@ package com.miapp
 
 class Perfil {
 	
-	Musico musico
-	String nombre
-	
+	String nombre	
+	GeneroMusical genero
+
 
     static constraints = {
     }
+	
+	static hasMany = [generos: GeneroMusical ]
 }

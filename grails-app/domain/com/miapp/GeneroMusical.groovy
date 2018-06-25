@@ -4,6 +4,10 @@ class GeneroMusical {
 
 	String nombre
 	
-    static constraints = {
+    String toString(){
+		return nombre
+	}
+	
+	static constraints = {
     }
 }
