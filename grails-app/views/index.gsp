@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Bienvenidos</title>
+    <title>Bandas musicales</title>
 </head>
 <body>
     <content tag="nav">
