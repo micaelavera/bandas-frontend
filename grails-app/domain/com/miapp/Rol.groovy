@@ -8,5 +8,5 @@ class Rol {
 		nombre blank: false
 	}
 	
-	static hasMany= [ instrumentos: Instrumento ]
+	/*static hasMany= [ instrumentos: Instrumento ]*/
 }

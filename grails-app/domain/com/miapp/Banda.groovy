@@ -7,9 +7,9 @@ class Banda {
 	
     static constraints = {
 		nombre nullable: false
-		logo blank:false
+		logo nullable:true
 	}
 
-	static belongsTo = [ musico : Musico ]
-	static hasMany = [ generoMusical : GeneroMusical ]
+	//static belongsTo = [ musico : Musico ]
+	//static hasMany = [ generoMusical : GeneroMusical ]
 }

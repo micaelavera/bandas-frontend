@@ -96,7 +96,7 @@ dataSource:
     jmxExport: true
     driverClassName: com.mysql.jdbc.Driver
     username: root
-    password: SET GLOBAL validate_password_policy = 0;
+    password: pass
 
 environments:
     development:

@@ -3,11 +3,11 @@ package com.miapp
 class Perfil {
 	
 	String nombre	
-	GeneroMusical genero
+	/*GeneroMusical genero*/
 
 
     static constraints = {
     }
 	
-	static hasMany = [generos: GeneroMusical ]
+	/*static hasMany = [generos: GeneroMusical ]*/
 }

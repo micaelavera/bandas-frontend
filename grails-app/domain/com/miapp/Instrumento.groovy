@@ -8,5 +8,5 @@ class Instrumento {
 		nombre nullable: false 
 	}
 	
-	static hasOne= [ rol : Rol ]
+	//static hasOne= [ rol : Rol ]
 }

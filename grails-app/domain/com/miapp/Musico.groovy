@@ -13,10 +13,10 @@ class Musico {
 		apellido nullable: false
 		email email: true, unique:true
 		password minSize: 6, password:true
-		foto blank: false
+		foto nullable: true
 	}
-	
+	/*
 	static hasMany = [ bandas : Banda ]
 	static hasOne = [ perfil : Perfil ]
-	static hasOne = [rol : Rol]
+	static hasOne = [rol : Rol]*/
 }
