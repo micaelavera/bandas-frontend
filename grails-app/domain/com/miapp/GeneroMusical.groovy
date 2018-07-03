@@ -10,4 +10,5 @@ class GeneroMusical {
 	
 	static constraints = {
     }
+	static hasMany = [ bandas : Banda ]
 }

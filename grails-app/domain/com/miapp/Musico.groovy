@@ -17,4 +17,6 @@ class Musico {
 	}
 	
 	static hasMany = [ bandas : Banda ]
+	static hasOne = [ perfil : Perfil ]
+	static hasOne = [rol : Role]
 }

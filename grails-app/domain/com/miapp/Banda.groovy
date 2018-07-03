@@ -11,4 +11,5 @@ class Banda {
 	}
 
 	static belongsTo = [ musico : Musico ]
+	static hasMany = [ generoMusical : GeneroMusical ]
 }
