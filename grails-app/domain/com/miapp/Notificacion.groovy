@@ -10,6 +10,7 @@ class Notificacion {
 
 	static mapping = {
 		table 'notificacion'
+			version false
 			busqueda column: 'busqueda_id'
 	}
 }

@@ -3,10 +3,15 @@ package com.miapp
 class Rol {
 
 	String nombre
+	Instrumento instrumento
 	
     static constraints = {
 		nombre blank: false
 	}
 	
-	/*static hasMany= [ instrumentos: Instrumento ]*/
+	String toString(){
+		return nombre
+	}
+	
+	static belongsTo= [instrumento: Instrumento]
 }

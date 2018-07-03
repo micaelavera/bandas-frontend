@@ -12,8 +12,10 @@ class Busqueda {
     static mapping={
         table "busqueda"
 		version false
-        instrumento column: '`instrumento`'
-        experiencia column: '`experiencia`'
-       sugerencia column: '`fechaSugerencia`'
+        instrumento column: 'instrumento'
+        experiencia column: 'experiencia'
+       sugerencia column: 'fechaSugerencia'
     }
+	
+	//static belongsTo= [instrumento: Instrumento]
 }

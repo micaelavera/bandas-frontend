@@ -15,6 +15,12 @@ class Musico {
 		password minSize: 6, password:true
 		foto nullable: true
 	}
+	
+
+	String toString(){
+		return nombre
+	}
+	
 	/*
 	static hasMany = [ bandas : Banda ]
 	static hasOne = [ perfil : Perfil ]

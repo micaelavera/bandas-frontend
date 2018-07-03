@@ -4,11 +4,13 @@ class GeneroMusical {
 
 	String nombre
 	
+	
     String toString(){
 		return nombre
 	}
 	
 	static constraints = {
+		nombre nullable:false
     }
-//	static hasMany = [ bandas : Banda ]
+
 }

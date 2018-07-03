@@ -1,6 +1,8 @@
-package com.miapp
+package bandas
 
 import grails.gorm.transactions.Transactional
+
+import com.miapp.*
 
 @Transactional
 class NotificacionService {

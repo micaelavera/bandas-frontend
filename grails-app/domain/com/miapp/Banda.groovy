@@ -4,6 +4,8 @@ class Banda {
 
 	String nombre
 	byte [] logo
+	GeneroMusical genero
+	Musico[] musicos
 	
     static constraints = {
 		nombre nullable: false
@@ -11,5 +13,5 @@ class Banda {
 	}
 
 	//static belongsTo = [ musico : Musico ]
-	//static hasMany = [ generoMusical : GeneroMusical ]
+	//static hasMany= [musicos : Musico]
 }
